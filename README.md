@@ -69,5 +69,9 @@ Password: admin123.$
 
 
 URL Deployment: 
-http://punchiq-frontend-bucket-qa.s3-website.us-east-2.amazonaws.com
+Frontend: http://punchiq-frontend-bucket-qa.s3-website.us-east-2.amazonaws.com
+Backend: http://railway.app
+BD: Supabase | The Postgres Development Platform.
+ 
+
 
