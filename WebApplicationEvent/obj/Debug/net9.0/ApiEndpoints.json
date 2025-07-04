@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEvent.Models.Event, WebApplicationEvent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplicationEvent.Models.events, WebApplicationEvent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "ev",
-        "Type": "WebApplicationEvent.Models.Event",
+        "Type": "WebApplicationEvent.Models.events",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplicationEvent.Models.Event",
+        "Type": "WebApplicationEvent.Models.events",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplicationEvent.Models.Event",
+        "Type": "WebApplicationEvent.Models.events",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,7 +86,7 @@
       },
       {
         "Name": "ev",
-        "Type": "WebApplicationEvent.Models.Event",
+        "Type": "WebApplicationEvent.Models.events",
         "IsRequired": true
       }
     ],

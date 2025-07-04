@@ -14,6 +14,6 @@ namespace WebApplicationEvent.Data
         {
         }
 
-        public DbSet<WebApplicationEvent.Models.Event> Event { get; set; } = default!;
+        public DbSet<WebApplicationEvent.Models.events> events { get; set; } = default!;
     }
 }
