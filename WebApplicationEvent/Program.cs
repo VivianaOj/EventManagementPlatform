@@ -42,8 +42,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// ✅ CORS debe ir antes de Authorization
-app.UseCors("AllowAngularDev");
+app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 
