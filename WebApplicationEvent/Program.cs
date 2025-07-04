@@ -21,11 +21,14 @@ builder.Services.AddSwaggerGen(options =>
 // ✅ CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularDev", policy =>
+    options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:4200")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.WithOrigins(
+            "http://localhost:4200",
+            "http://punchiq-frontend-bucket-qa.s3-website.us-east-2.amazonaws.com"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod();
     });
 });
 
