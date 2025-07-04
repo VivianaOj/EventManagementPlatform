@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BfYcFyKXprTqA3BEGp0iZfzQr2cyLhLH5o8ddZbA+4U=",
+  "Source": "EventManagementPlatformAPI",
+  "BasePath": "_content/EventManagementPlatformAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
