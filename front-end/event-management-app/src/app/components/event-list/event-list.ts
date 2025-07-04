@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   standalone: true,
@@ -16,6 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     CommonModule,
     FormsModule,
+    HttpClientModule,
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule
@@ -83,7 +85,7 @@ export class EventListComponent implements OnInit {
       title: '',
       description: '',
       location: '',
-      eventDate: new Date().toISOString().slice(0, 16) // formato yyyy-MM-ddTHH:mm
+      eventdate: new Date().toISOString().slice(0, 16) // formato yyyy-MM-ddTHH:mm
     };
   }
 }
