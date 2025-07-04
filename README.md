@@ -60,6 +60,9 @@ Example request body:
 }
 Returns created event object.
 
+
+![image](https://github.com/user-attachments/assets/e528b946-f819-41fd-af88-2bdf2bf88a61)
+
 4. PostgreSQL Info 
 Host: aws-0-us-east-1.pooler.supabase.com
 Port: 5432
@@ -70,8 +73,10 @@ Password: admin123.$
 
 URL Deployment: 
 Frontend: http://punchiq-frontend-bucket-qa.s3-website.us-east-2.amazonaws.com
+![image](https://github.com/user-attachments/assets/a0851855-65e2-49fb-925e-17773ba47c77)
 
-Backend: http://railway.app
+Backend: [http://railway.app](https://dashboard.render.com/)
+https://eventmanagementplatform-ijju.onrender.com/event
 
 BD: Supabase | The Postgres Development Platform.
 
