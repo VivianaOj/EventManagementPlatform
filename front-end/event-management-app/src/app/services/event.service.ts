@@ -5,7 +5,7 @@ import { Event } from '../models/event.model';
 
 @Injectable({ providedIn: 'root' })
 export class EventService {
-  private apiUrl = 'http://localhost:5091/event'; 
+  private apiUrl = 'https://eventmanagementplatform-ijju.onrender.com/event'; 
 
   constructor(private http: HttpClient) {}
 
