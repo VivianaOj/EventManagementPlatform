@@ -23,12 +23,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins(
-            "http://localhost:4200",
-            "http://punchiq-frontend-bucket-qa.s3-website.us-east-2.amazonaws.com"
-        )
-        .AllowAnyHeader()
-        .AllowAnyMethod();
+        policy.WithOrigins("http://punchiq-frontend-bucket-qa.s3-website.us-east-2.amazonaws.com")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 
