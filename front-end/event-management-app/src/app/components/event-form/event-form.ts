@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './event-form.html',
   styleUrl: './event-form.scss'
 })
-export class EventForm {
+export class EventFormComponent {
 
 }

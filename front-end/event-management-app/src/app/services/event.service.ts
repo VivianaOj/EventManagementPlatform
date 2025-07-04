@@ -5,7 +5,7 @@ import { Event } from '../models/event.model';
 
 @Injectable({ providedIn: 'root' })
 export class EventService {
-  private apiUrl = 'http://localhost:5000/api/event'; // Cambia si tu API está en otro puerto
+  private apiUrl = 'http://localhost:5091/event'; 
 
   constructor(private http: HttpClient) {}
 
