@@ -60,6 +60,9 @@ Example request body:
 }
 Returns created event object.
 
+
+![image](https://github.com/user-attachments/assets/e528b946-f819-41fd-af88-2bdf2bf88a61)
+
 4. PostgreSQL Info 
 Host: aws-0-us-east-1.pooler.supabase.com
 Port: 5432
