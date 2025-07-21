@@ -5,7 +5,7 @@ import { Event } from '../models/event.model';
 
 @Injectable({ providedIn: 'root' })
 export class EventService {
-  private apiUrl = 'https://eventmanagementplatform-ijju.onrender.com/event'; 
+  private apiUrl = ' https://eventmanagementplatform-ijju.onrender.com/event'; 
 
   constructor(private http: HttpClient) {}
 
@@ -15,7 +15,7 @@ export class EventService {
 
   getEvent(id: number): Observable<Event> {
     return this.http.get<Event>(`${this.apiUrl}/${id}`);
-  }
+  } 
 
   createEvent(event: Event): Observable<Event> {
     return this.http.post<Event>(this.apiUrl, event);
